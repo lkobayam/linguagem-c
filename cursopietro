@@ -1,6 +1,6 @@
 //Exercício 1: faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números//
 #include <stdio.h>
-#include <string.h>
+#include <string.h> 
 
 int main(int argc, char *argv[])
 {
