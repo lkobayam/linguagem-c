@@ -1,0 +1,25 @@
+//faça um programa que receba o salário de um funcionário e o percentual de aumento. calcule e mostre o valor de aumento e o novo salário.//
+
+#include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+
+int main()
+{
+    float sal, p, valor, au; 
+    printf("Informe o salario do funcionário:\n");
+    scanf("%f", &sal);
+    
+    printf("Qual o percentual do aumento?\n");
+    scanf("%f", &p);
+    
+    valor = sal * p/100;
+    au = valor + sal;
+    
+    printf("O valor do aumento: %.2f \n", valor);
+    
+    printf("O novo salario: %.2f \n" , au);
+    
+
+    return 0;
+}
