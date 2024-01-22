@@ -23,8 +23,10 @@ int main()
      if (n2 > n1)
      printf("O maior número é: %d.\n", n2);
      
+     else {
      if (n1 == n2)
      printf("Os dois números são iguais\n");
+     }
 
     return 0;
 }
